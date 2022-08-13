@@ -10,7 +10,20 @@ html {
 }
 
 body {
-    @apply text-text-black text-base font-['Poppins'] overflow-hidden lg:text-xl;
+    @apply text-text-black text-base font-['Poppins'] lg:text-xl bg-white;
+}
+
+ul,
+li {
+    @apply list-none;
+}
+
+a {
+    @apply no-underline;
+}
+
+button {
+    cursor: pointer;
 }
 
 .btn-primary {
