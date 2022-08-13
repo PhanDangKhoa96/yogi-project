@@ -39,6 +39,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-postcss',
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/Layout/layout`),
+      },
+    },
   ],
 }

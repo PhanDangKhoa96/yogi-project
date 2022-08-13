@@ -2,7 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.abc {
-    color: red;
-}
+@import "./base";
