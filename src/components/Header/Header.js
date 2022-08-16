@@ -6,25 +6,20 @@ import { useLocation } from '@reach/router';
 
 const Header = () => {
     const [isOpenMenu, setIsOpenMenu] = useState(false);
-    const [headerHeight, setheaderHeight] = useState(null);
     const header = useRef(null);
-    const nav = useRef(null);
     const location = useLocation();
 
     // change style menu when scroll and set default height for menu
     useEffect(() => {
-        const height = nav.current.offsetHeight;
-        setheaderHeight(height);
-
         window.addEventListener('scroll', () => {
             const scrollY = window.pageYOffset;
 
             if (scrollY > 50) {
                 header.current.classList.add('shadow-md', 'fixed');
-                header.current.classList.remove('relative');
+                header.current.classList.remove('absolute');
             } else {
                 header.current.classList.remove('shadow-md', 'fixed');
-                header.current.classList.add('relative');
+                header.current.classList.add('absolute');
             }
         });
     }, []);
@@ -37,8 +32,7 @@ const Header = () => {
     return (
         <>
             <header
-                className="bg-white relative w-full top-0 left-0 transition-all duration-300"
-                style={{ height: `${headerHeight}px` }}
+                className="bg-white absolute w-full top-0 left-0 transition-all duration-300 h-20 z-20"
                 ref={header}
             >
                 <ul
@@ -97,10 +91,7 @@ const Header = () => {
                         </Link>
                     </li>
                 </ul>
-                <div
-                    className="container flex justify-between py-4 items-center  fixed z-[1000] top-0 left-1/2 -translate-x-1/2"
-                    ref={nav}
-                >
+                <div className="container flex justify-between py-4 items-center  fixed z-[1000] top-0 left-1/2 -translate-x-1/2">
                     <Link to="/">
                         <h1 className="text-primary font-bold text-4xl lg:text-5xl">
                             Yogi
