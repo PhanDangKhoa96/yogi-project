@@ -46,10 +46,10 @@ const Hero = () => {
             </svg>
             <div className="container py-7 grid gap-x-20 gap-y-7 lg:pt-12 lg:pb-20 lg:grid-cols-2 lg:items-center xl:gap-x-40">
                 <div className="text-center lg:text-left">
-                    <h1 className="page-title mb-5 lg:mb-8">
+                    <h1 className="mb-5 lg:mb-8">
                         Keeping It All Together
                     </h1>
-                    <p className="description mb-7 lg:mb-14">
+                    <p className="mb-7 lg:mb-14">
                         Enjoy special design, development & advertising offers
                         from Google, Microsoft Advertising, and other leading
                         sites to help grow your business, - Start Today.
