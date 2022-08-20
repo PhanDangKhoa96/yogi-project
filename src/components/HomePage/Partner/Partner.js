@@ -7,7 +7,7 @@ const Partner = () => {
             <p className="text-center w-2/3 mx-auto mb-5 md:mb-8 lg:mb-12">
                 Thousands of teams worldwide are using Hugi
             </p>
-
+            {/* 
             <div className="flex flex-wrap gap-5 justify-center lg:gap-16 xl:gap-x-32">
                 <div className="w-[calc((100%-20px)/2)] lg:w-[calc((100%-3*64px)/4)] xl:w-[calc((100%-3*128px)/4)] text-center">
                     <StaticImage
@@ -37,6 +37,39 @@ const Partner = () => {
                         objectFit="contain"
                         src="../../../assets/huawei.svg"
                         className="w-2/3 lg:w-full"
+                    />
+                </div>
+            </div> */}
+
+            <div className="grid grid-cols-2 gap-5 justify-items-start lg:gap-16 xl:gap-x-32 xl:grid-cols-4">
+                <div className=" h-full w-full grid place-items-center">
+                    <StaticImage
+                        objectFit="contain"
+                        src="../../../assets/google.svg"
+                        className="w-full"
+                    />
+                </div>
+                <div className=" h-full w-full grid place-items-center">
+                    <StaticImage
+                        objectFit="contain"
+                        src="../../../assets/yahoo.svg"
+                        className="w-full"
+                    />
+                </div>
+
+                <div className=" h-full w-full grid place-items-center">
+                    <StaticImage
+                        objectFit="contain"
+                        src="../../../assets/microsoft.svg"
+                        className="w-full"
+                    />
+                </div>
+
+                <div className=" h-full w-full grid place-items-center">
+                    <StaticImage
+                        objectFit="contain"
+                        src="../../../assets/huawei.svg"
+                        className="w-full"
                     />
                 </div>
             </div>

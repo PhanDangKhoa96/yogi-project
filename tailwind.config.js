@@ -7,15 +7,23 @@ module.exports = {
     theme: {
         container: {
             center: true,
-            padding: '1rem'
+            padding: {
+                DEFAULT: '16px',
+                sm: '20px'
+            }
+        },
+        screens: {
+            sm: '680px',
+            md: '808px',
+            lg: '1064px',
+            xl: '1320px'
         },
         extend: {
             colors: {
-                'text-black': '#120D26',
-                'text-light': '#94959A',
-                primary: '#FF7058',
-                'container-bg': '#ff71580d',
-                'bg-black': '#120D26'
+                venetian: '#120D26',
+                spanish: '#94959A',
+                bittersweet: '#FF7058',
+                'container-bg': '#ff71580d'
             },
             boxShadow: {
                 'base-shadow': '0px 10px 40px rgba(241, 102, 24, 0.15)'

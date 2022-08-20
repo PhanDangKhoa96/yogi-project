@@ -45,10 +45,10 @@ const Header = () => {
                     <li>
                         <Link
                             to="/blog"
-                            className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                            className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                 location?.pathname === '/blog'
-                                    ? 'text-primary'
-                                    : 'text-text-light'
+                                    ? 'text-bittersweet'
+                                    : 'text-spanish'
                             }`}
                         >
                             Blog
@@ -57,10 +57,10 @@ const Header = () => {
                     <li>
                         <Link
                             to="/pricing"
-                            className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                            className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                 location?.pathname === '/pricing'
-                                    ? 'text-primary'
-                                    : 'text-text-light'
+                                    ? 'text-bittersweet'
+                                    : 'text-spanish'
                             }`}
                         >
                             Pricing
@@ -69,10 +69,10 @@ const Header = () => {
                     <li>
                         <Link
                             to="/about"
-                            className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                            className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                 location?.pathname === '/about'
-                                    ? 'text-primary'
-                                    : 'text-text-light'
+                                    ? 'text-bittersweet'
+                                    : 'text-spanish'
                             }`}
                         >
                             About us
@@ -81,10 +81,10 @@ const Header = () => {
                     <li>
                         <Link
                             to="/contact"
-                            className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                            className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                 location?.pathname === '/contact'
-                                    ? 'text-primary'
-                                    : 'text-text-light'
+                                    ? 'text-bittersweet'
+                                    : 'text-spanish'
                             }`}
                         >
                             Contact
@@ -93,7 +93,7 @@ const Header = () => {
                 </ul>
                 <div className="container flex justify-between py-4 items-center  fixed z-[1000] top-0 left-1/2 -translate-x-1/2">
                     <Link to="/">
-                        <h1 className="text-primary font-bold text-4xl lg:text-5xl">
+                        <h1 className="text-bittersweet font-bold text-4xl lg:text-5xl">
                             Yogi
                         </h1>
                     </Link>
@@ -123,10 +123,10 @@ const Header = () => {
                             <li>
                                 <Link
                                     to="/blog"
-                                    className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                                    className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                         location?.pathname === '/blog'
-                                            ? 'text-primary'
-                                            : 'text-text-light'
+                                            ? 'text-bittersweet'
+                                            : 'text-spanish'
                                     }`}
                                 >
                                     Blog
@@ -135,10 +135,10 @@ const Header = () => {
                             <li>
                                 <Link
                                     to="/pricing"
-                                    className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                                    className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                         location?.pathname === '/pricing'
-                                            ? 'text-primary'
-                                            : 'text-text-light'
+                                            ? 'text-bittersweet'
+                                            : 'text-spanish'
                                     }`}
                                 >
                                     Pricing
@@ -147,10 +147,10 @@ const Header = () => {
                             <li>
                                 <Link
                                     to="/about"
-                                    className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                                    className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                         location?.pathname === '/about'
-                                            ? 'text-primary'
-                                            : 'text-text-light'
+                                            ? 'text-bittersweet'
+                                            : 'text-spanish'
                                     }`}
                                 >
                                     About us
@@ -159,10 +159,10 @@ const Header = () => {
                             <li>
                                 <Link
                                     to="/contact"
-                                    className={`font-semibold  text-base hover:text-primary transition duration-500 lg:text-lg ${
+                                    className={`font-semibold  text-base hover:text-bittersweet transition duration-500 lg:text-lg ${
                                         location?.pathname === '/contact'
-                                            ? 'text-primary'
-                                            : 'text-text-light'
+                                            ? 'text-bittersweet'
+                                            : 'text-spanish'
                                     }`}
                                 >
                                     Contact

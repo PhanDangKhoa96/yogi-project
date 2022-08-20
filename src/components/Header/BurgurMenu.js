@@ -29,7 +29,7 @@ const BurgurMenu = ({ isOpen, setIsOpenMenu }) => {
             height="32"
             viewBox="0 0 44 44"
             xmlns="http://www.w3.org/2000/svg"
-            className="fill-text-black lg:hidden"
+            className="fill-venetian lg:hidden"
         >
             <animated.rect width="40" height="4" rx="2" style={first} />
             <animated.rect width="40" height="4" rx="2" style={second} />

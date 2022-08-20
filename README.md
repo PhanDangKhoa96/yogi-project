@@ -119,7 +119,7 @@ To update the colors used in this starter, edit the `src/colors.css.ts` file.
 export const colors = {
   background: "#ffd500",
   text: "#005bbb",
-  primary: "#005bbb",
+  bittersweet: "#005bbb",
   muted: "#f5cc00",
   active: "#004287",
   black: "#000",
