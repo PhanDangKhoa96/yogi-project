@@ -9,7 +9,7 @@ const Hero = () => {
             '#blob1',
             { path: '#blob1' },
             { path: '#blob2' },
-            { repeat: 999, duration: 3000, yoyo: true }
+            { repeat: 999, duration: 2500, yoyo: true }
         );
 
         tween.start();
@@ -23,7 +23,7 @@ const Hero = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 version="1.1"
-                className="absolute h-3/4 top-0 left-0 -translate-x-[50%] -translate-y-1/4"
+                className="absolute h-3/4 top-0 left-0 -translate-x-[50%] -translate-y-1/4 lg:h-full"
             >
                 <g transform="translate(518.2711851868296 309.97175888369816)">
                     <path
