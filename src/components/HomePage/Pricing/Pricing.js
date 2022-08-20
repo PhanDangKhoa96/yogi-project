@@ -11,9 +11,9 @@ const Pricing = () => {
                 </p>
             </div>
             <div className="container">
-                <div className="grid-container text-center items-start mb-[30px] lg:grid-cols-2 xl:grid-cols-3">
-                    <div className="grid gap-y-[22px] py-6 px-10 rounded-[15px] shadow-base-shadow lg:pt-[37px] lg:pb-[35px] lg:px-[52px]">
-                        <div className="px-[23px] grid !gap-y-[22px] lg:px-0">
+                <div className="grid-container text-center items-start mb-[30px] lg:grid-cols-3">
+                    <div className="grid gap-y-[22px] py-6 px-10 rounded-[15px] shadow-base-shadow lg:px-6 lg:pt-[37px] lg:pb-[35px] xl:px-[52px]">
+                        <div className="grid !gap-y-[22px] lg:px-0">
                             <span className="block">
                                 <h3 className="inline-block">$50</h3>
                                 <p className="text-base inline-block lg:text-lg">
@@ -55,8 +55,8 @@ const Pricing = () => {
                         </button>
                     </div>
 
-                    <div className="grid gap-y-[22px] py-6 px-10 rounded-[15px] shadow-base-shadow lg:pt-[37px] lg:pb-[35px] lg:px-[52px]">
-                        <div className="px-[23px] grid !gap-y-[22px] lg:px-0">
+                    <div className="grid gap-y-[22px] py-6 px-10 rounded-[15px] shadow-base-shadow lg:px-6 lg:pt-[37px] lg:pb-[35px] xl:px-[52px]">
+                        <div className="grid !gap-y-[22px] lg:px-0">
                             <span className="block">
                                 <h3 className="inline-block">$499</h3>
                                 <p className="text-base inline-block lg:text-lg">
@@ -121,8 +121,8 @@ const Pricing = () => {
                         </button>
                     </div>
 
-                    <div className="grid gap-y-[22px] py-6 px-10 rounded-[15px] shadow-base-shadow lg:pt-[37px] lg:pb-[35px] lg:px-[52px]">
-                        <div className="px-[23px] grid !gap-y-[22px] lg:px-0">
+                    <div className="grid gap-y-[22px] py-6 px-10 rounded-[15px] shadow-base-shadow lg:px-6 lg:pt-[37px] lg:pb-[35px] xl:px-[52px]">
+                        <div className="grid !gap-y-[22px] lg:px-0">
                             <span className="block">
                                 <h3 className="inline-block">$999</h3>
                                 <p className="text-base inline-block lg:text-lg">
