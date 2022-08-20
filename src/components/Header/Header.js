@@ -113,7 +113,7 @@ const Header = () => {
                             </Link>
                             <Link
                                 to="/register"
-                                className="py-3 px-5 text-white bg-bg-black rounded-md text-sm lg:text-base lg:px-10"
+                                className="py-3 px-5 text-white bg-venetian rounded-md text-sm lg:text-base lg:px-10"
                             >
                                 Sign up
                             </Link>

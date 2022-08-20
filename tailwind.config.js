@@ -23,7 +23,8 @@ module.exports = {
                 venetian: '#120D26',
                 spanish: '#94959A',
                 bittersweet: '#FF7058',
-                'container-bg': '#ff71580d'
+                'container-bg': '#ff71580d',
+                'anti-flash': '#F2F2F2'
             },
             boxShadow: {
                 'base-shadow': '0px 10px 40px rgba(241, 102, 24, 0.15)'
