@@ -18,9 +18,9 @@ const HomePage = () => {
 
     return (
         <>
-            {Object.keys(components).map((key) => {
+            {Object.keys(components).map((key, index) => {
                 const Component = components[key];
-                return <Component />;
+                return <Component key={key + index} />;
             })}
         </>
     );

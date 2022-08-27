@@ -71,6 +71,7 @@ const Hero = () => {
                 <StaticImage
                     src="../../../assets/hero-home.png"
                     className="aspect-square mx-auto md:w-2/3 lg:w-full"
+                    alt='image'
                 />
             </div>
         </section>

@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-    @apply text-3xl font-bold lg:text-[40px];
+    @apply text-3xl font-bold lg:text-[40px] lg:leading-[60px];
 }
 
 h4 {
@@ -50,10 +50,18 @@ p {
     @apply text-spanish text-lg lg:text-xl;
 }
 
-.btn-primary {
-    @apply text-white bg-bittersweet;
-}
+@layer utilities {
+    .btn-primary {
+        @apply text-white bg-bittersweet rounded-[10px] px-5 py-3 lg:px-7 lg:py-7;
+    }
 
-.btn--flex {
-    @apply inline-flex items-center gap-x-2;
+    .btn--flex {
+        @apply inline-flex items-center gap-x-2;
+
+        &:hover {
+            i {
+                @apply translate-x-1 transition duration-200;
+            }
+        }
+    }
 }

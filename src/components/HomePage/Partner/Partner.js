@@ -14,6 +14,7 @@ const Partner = () => {
                         objectFit="contain"
                         src="../../../assets/google.svg"
                         className="w-full"
+                        alt="image"
                     />
                 </div>
                 <div className=" h-full w-full grid place-items-center">
@@ -21,6 +22,7 @@ const Partner = () => {
                         objectFit="contain"
                         src="../../../assets/yahoo.svg"
                         className="w-full"
+                        alt="image"
                     />
                 </div>
 
@@ -29,6 +31,7 @@ const Partner = () => {
                         objectFit="contain"
                         src="../../../assets/microsoft.svg"
                         className="w-full"
+                        alt="image"
                     />
                 </div>
 
@@ -37,6 +40,7 @@ const Partner = () => {
                         objectFit="contain"
                         src="../../../assets/huawei.svg"
                         className="w-full"
+                        alt="image"
                     />
                 </div>
             </div>
