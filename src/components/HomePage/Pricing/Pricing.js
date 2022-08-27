@@ -50,7 +50,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <button className="btn-primary p-3 rounded-[15px] lg:py-7 lg:px-7">
+                        <button className="btn-primary">
                             Buy now
                         </button>
                     </div>
@@ -116,7 +116,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <button className="btn-primary p-3 rounded-[15px] lg:py-7 lg:px-7">
+                        <button className="btn-primary">
                             Buy now
                         </button>
                     </div>
@@ -211,7 +211,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <button className="btn-primary p-3 rounded-[15px] lg:py-7 lg:px-7">
+                        <button className="btn-primary">
                             Buy now
                         </button>
                     </div>

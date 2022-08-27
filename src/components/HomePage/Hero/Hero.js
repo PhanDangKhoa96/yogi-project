@@ -44,7 +44,7 @@ const Hero = () => {
                     ></path>
                 </g>
             </svg>
-            <div className="container py-7 grid gap-x-20 gap-y-7 lg:pt-12 lg:pb-20 lg:grid-cols-2 lg:items-center xl:gap-x-40">
+            <div className="container relative py-7 grid gap-x-20 gap-y-7 lg:pt-12 lg:pb-20 lg:grid-cols-2 lg:items-center xl:gap-x-40">
                 <div className="text-center lg:text-left">
                     <h1 className="mb-5 lg:mb-8">Keeping It All Together</h1>
                     <p className="mb-7 lg:mb-14">
@@ -56,7 +56,7 @@ const Hero = () => {
                     <div className="flex flex-col items-center gap-y-4 gap-x-7 lg:items-start xl:flex-row xl:items-center">
                         <Link
                             to="/pricing"
-                            className="btn-primary btn--flex py-3 px-6 rounded-[15px] lg:py-5 lg:px-11"
+                            className="btn-primary btn--flex rounded-[15px]"
                         >
                             Try for free
                             <i className="ri-arrow-right-s-line"></i>
@@ -71,7 +71,7 @@ const Hero = () => {
                 <StaticImage
                     src="../../../assets/hero-home.png"
                     className="aspect-square mx-auto md:w-2/3 lg:w-full"
-                    alt='image'
+                    alt="image"
                 />
             </div>
         </section>
