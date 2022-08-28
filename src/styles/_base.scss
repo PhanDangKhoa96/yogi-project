@@ -52,7 +52,7 @@ p {
 
 @layer utilities {
     .btn-primary {
-        @apply text-white text-base bg-bittersweet rounded-[10px] px-5 py-3 lg:px-7 lg:py-5 lg:text-lg;
+    @apply text-white inline-block text-base bg-bittersweet rounded-[10px] px-5 py-3 lg:px-7 lg:py-5 lg:text-lg;
     }
 
     .btn--flex {
