@@ -1,7 +1,8 @@
 import React from 'react';
+import BlogPost from './blog-post';
 
 const RegisterPage = () => {
-    return <div>RegisterPage</div>;
+    return <BlogPost />;
 };
 
 export default RegisterPage;
